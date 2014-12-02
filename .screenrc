@@ -52,11 +52,11 @@ setenv myTOP 'top'
 # ===============================================================
 # ESCAPE - the COMMAND CHARACTER
 # ===============================================================
-# escape ^aa  # default
+escape ^aa  # default
 # escape ^pp  # suggested binding for emacs users
 # escape `    # backtick
 #
-escape ``
+# escape ``
 
 # ===============================================================
 # STARTUP of programs in an extra window:
@@ -799,15 +799,15 @@ bind I screen -t irssi		99	irssi -! ## use the -! to disable autoconnect
 
 # 030511 Some usefull abbreviations
 #  bindkey -t ROFL stuff *ROFL*
-#  bindkey -t °web stuff "www.michael-prokop.at"
+#  bindkey -t <B0>web stuff "www.michael-prokop.at"
 # 030511 Workaround for stupid machines without xmodmap ;-)
-#  bindkey -t °a stuff "ä"
-#  bindkey -t °A stuff "Ä"
-#  bindkey -t °o stuff "ö"
-#  bindkey -t °O stuff "Ö"
-#  bindkey -t °u stuff "ü"
-#  bindkey -t °U stuff "Ü"
-#  bindkey -t °s stuff "ß"
+#  bindkey -t <B0>a stuff "<E4>"
+#  bindkey -t <B0>A stuff "<C4>"
+#  bindkey -t <B0>o stuff "<F6>"
+#  bindkey -t <B0>O stuff "<D6>"
+#  bindkey -t <B0>u stuff "<FC>"
+#  bindkey -t <B0>U stuff "<DC>"
+#  bindkey -t <B0>s stuff "<DF>"
 #
 # ===============================================================
 # BIND Examples:
